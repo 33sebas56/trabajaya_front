@@ -1,0 +1,16 @@
+{
+  "kind": "OFFLINE_UI_WITH_CONTROLLED_API_DOUBLE",
+  "passed": [
+    "Landing desktop/mobile without horizontal overflow",
+    "Client publishes and increases offer using API requests",
+    "Worker accepts and sends message; assignment has frozen price",
+    "Ordered progress, client confirmation, final review",
+    "Profile, notifications, reports and mobile workspace render",
+    "Normal blank login, error handling, return destination and role navigation",
+    "Worker registration, password confirmation and unchanged API payload",
+    "Access and help mobile layout without horizontal overflow",
+    "No uncaught browser JavaScript exceptions"
+  ],
+  "api_calls": 87,
+  "not_tested": "Real Spring Boot API, PostgreSQL, Supabase and SMTP are not exercised by this frontend test."
+}

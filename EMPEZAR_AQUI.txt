@@ -1,0 +1,19 @@
+TRABAJAYA - FRONTEND ACTUALIZADO
+
+1. Mantener el backend Spring Boot iniciado como antes (puerto 8080).
+2. Detener el frontend anterior con Ctrl+C y conservar una copia.
+3. Extraer esta carpeta. Conservar el .env propio si se habia configurado.
+4. Abrir PowerShell dentro de esta carpeta y ejecutar:
+
+   node server.mjs
+
+5. Abrir http://localhost:5173 y recargar con Ctrl+F5.
+
+No es necesario npm install. No agregar un punto despues de server.mjs.
+No se modifica ni se borra la base de datos.
+Entrar con una cuenta propia o registrarse. Ya no hay accesos rapidos de prueba.
+Las cuentas de ejemplo existentes no desaparecen por cambiar el frontend.
+
+README.md explica el codigo.
+docs/CONECTAR_SERVICIOS.md explica como preparar SQL, imagenes y correo reales.
+docs/VERIFICACION.md detalla las pruebas realizadas y sus limites.
